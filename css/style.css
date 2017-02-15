@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+/** Color variables */
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 5em;
+  margin-bottom: 1em;
+}
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-family: Raleway;
+  background-color: #BCD3F2;
+  color: #395C6B;
+}
+
+.btn-primary, .btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:active:focus,
+.btn-primary.active,
+.btn.btn-primary[disabled],
+.btn.btn-primary:disabled {
+  color: #E6E1C5;
+  background-color: #395C6B;
+  border-color: #395C6B;
+}
+
+.btn_group {
+  margin: 2em auto 3em auto;
+  background-color: #799CAB;
+}
+
+.btn {
+  margin: 0.5em;
+}
+
+.vert-rule {
+  display: inline-block;
+  border: 1px solid #395C6B;
+  margin: auto 2em;
+  vertical-align: middle;
+  height: 2em;
+}
+
+.circle {
+  border-radius: 50%;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: #395C6B;
+  border: 10px solid #799CAB;
+}
+
+h2 {
+  line-height: 230%;
+  font-size: 4em;
+  color: #D4CB92;
+}
+
+.small-circle {
+  margin: 0;
+  padding: 0;
+  margin: 2em 0.5em auto 0.5em;
+  border-radius: 50%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #799CAB;
+}
+
+h3 {
+  color: #799CAB;
+  border: 2px solid #799CAB;
+  padding: 0.5em;
+  display: inline-block;
+  margin: -1em auto 1em auto;
+}
+
+#a:link, #a:visited, #a:hover, #a:active {
+  text-decoration: none;
+  color: #799CAB;
+}
+
+/** Switch styles */
+.switch-label {
+  display: inline-block;
+  margin-right: -1em;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.switch {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.switch input, .switch label {
+  margin-bottom: -0.5em;
+}
+
+.cmn-toggle {
+  display: inline-block;
+  position: relative;
+  visibility: hidden;
+}
+
+.cmn-toggle + label {
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+input.cmn-toggle-round-flat + label {
+  display: inline-block;
+  padding: 2px;
+  width: 60px;
+  height: 30px;
+  background-color: #799CAB;
+  border-radius: 30px;
+}
+
+input.cmn-toggle-round-flat + label:before,
+input.cmn-toggle-round-flat + label:after {
+  display: inline-block;
+  position: absolute;
+  content: "";
+}
+
+input.cmn-toggle-round-flat + label:before {
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  right: 1px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+input.cmn-toggle-round-flat + label:after {
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  width: 26px;
+  background-color: #395C6B;
+  border-radius: 26px;
+  transition: margin 0.4s;
+}
+
+input.cmn-toggle-round-flat:checked + label {
+  background-color: #799CAB;
+}
+
+input.cmn-toggle-round-flat:checked + label:after {
+  margin-left: 30px;
+  background-color: #395C6B;
+}

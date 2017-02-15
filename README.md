@@ -1,0 +1,3 @@
+#Pomodoro Timer
+
+The [Pomodoro Technique] (https://en.wikipedia.org/wiki/Pomodoro_Technique) is used by many to increase productivity and aid in time management. This app is a web-based alternative to the physical timer that is traditionally used for the technique. The app features "disciplined" and "free" modes, the former enforcing the sequence defined by the technique and the latter allowing unrestricted use of the app. Additionally, the app keeps track of the number of pomodoros completed in a given session, so you won't be left wondering if the pomodoro you just completed was your second or third! The app can be found [here] (https://s.codepen.io/CGervase/debug/vgRYVa).

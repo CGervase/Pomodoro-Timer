@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Timer</title>
+  <title>Pomodoro Timer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <h1 class="text-center">Pomodoro Timer</h1>
+
+<div class="btn_group text-center" id="length-btns">
+  <div class="switch-label">Disciplined</div>
+  <div class="switch">
+    <input id="toggle" class="cmn-toggle cmn-toggle-round-flat" type="checkbox">
+    <label for="toggle"></label>
+  </div>
+  <div class="switch-label">Free</div>
+  
+  <div class="vert-rule"></div>
+  
+  <button type="button" class="btn btn-primary" id="pomodoro">Pomodoro</button>
+  <button type="button" class="btn btn-primary" id="short" disabled>Short Break</button>
+  <button type="button" class="btn btn-primary" id="long" disabled>Long Break</button>
+  
+  <div class="vert-rule"></div>
+  
+  <button type="button" class="btn btn-primary" id="custom" disabled>Custom Length</button>
+  <input type="text" size="4" id="input">
+  <label for="input">minutes</label>
+</div>
+
+<div class="text-center">
+  <div class="circle" id="timer-circle">
+    <h2 id="timer">25:00</h2>
+  </div>
+  <div class="text-center">
+    <div class="small-circle" id="c1"></div>
+    <div class="small-circle" id="c2"></div>
+    <div class="small-circle" id="c3"></div>
+    <div class="small-circle" id="c4"></div>
+  </div>
+</div>
+
+<div class="btn_group text-center" id="timer-btns">
+  <button type="button" class="btn btn-primary" id="start">Start/Stop</button>
+  <button type="button" class="btn btn-primary" id="reset">Reset</button>
+</div>
+
+<div class="text-center">
+  <h3 id="help" data-container="body" data-toggle="popover" data-placement="right" data-trigger="focus" data-html="true" data-content="This timer uses the <a href='https://en.wikipedia.org/wiki/Pomodoro_Technique' target='_blank'>Pomodoro Technique</a> to aid in time management.<br><br>When 'Disciplined' mode is active, the timer only allows breaks in the usual order of the Pomodoro technique. Conversely, 'Free' mode allows unrestricted use of the timer.<br><br>Keyboard shortcuts:<br>P - Pomodoro<br>S - Short break<br>L - Long break<br>C - Custom time interval<br>Spacebar - Start/stop timer<br>R - Reset timer"><a href="#" id="a">Help</a></h3>
+</div>
+
+<footer class="text-center">Created by Charles Gervase.</footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
